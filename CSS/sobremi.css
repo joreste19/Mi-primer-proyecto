@@ -1,0 +1,90 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color:#B6D0F2;
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-style: oblique;
+    font-size: small;
+}
+
+#logo{
+    border-radius: 50%;
+}
+
+
+.navegacion{
+    width: 70rem;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    color: black;
+    }
+
+main{
+    background-color: whitesmoke;
+    height: 32rem;
+    width: 100%;
+}
+
+main > h1{
+    color: #85B4F2;
+    font-style: italic;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main > h5{
+    color: #65768C;
+    display: flex;
+    justify-content: center;
+}
+
+.misservicios{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    }
+
+#container{
+    background-color: #D5E5F2;
+    width: 16rem;
+    height: 17rem;
+    margin: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.sobremi{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.offcanvas-body{
+    background-color: #D5E5F2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer { 
+    background-color:#65768C; 
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    font-size: small;
+}

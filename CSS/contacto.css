@@ -1,0 +1,91 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color:#B6D0F2;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-style: oblique;
+    font-size: small;
+}
+
+#logo{
+    border-radius: 50%;
+}
+
+
+.navegacion{
+    width: 70rem;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    color: black;
+    }
+
+main{
+    background-color: #D5E5F2;
+    width: 100%;
+    height: 37rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.ubicame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mapa{
+    background-color: #65768C;
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    color: white;
+    border-color: wheat;
+}
+
+.formulario{
+    background-color: #65768C;
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 5%;
+    border-color: black;
+}
+
+#whatsapp{
+    background-color: #25d366;
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    border-radius: 5%;
+    border: 15%;
+
+}
+
+
+footer{
+    background-color:#65768C; 
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    font-size: small;
+}

@@ -1,0 +1,60 @@
+body { 
+    background-color: #A1A7B7;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color:  #B6D0F2;
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: small;
+    font-style: oblique;
+    color: black;
+}
+
+#logo { 
+    border-radius: 50%;
+}
+
+
+.navegacion{
+width: 70rem;
+display: flex;
+justify-content:space-evenly;
+flex-direction: row;
+color: black;
+}
+
+
+main {      
+    background-color: whitesmoke;
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    font-style: italic;   
+}
+
+#foto {
+    border-radius: 50%;
+}
+
+
+
+
+footer { 
+    background-color:#65768C; 
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    font-size: small;
+}
